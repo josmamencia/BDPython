@@ -27,3 +27,4 @@ with open('../../data/Cap1/subvenciones.csv', encoding='latin1') as fichero_csv:
         else:
             asociaciones[centro] = subvencion
     print(asociaciones)
+    
