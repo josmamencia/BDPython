@@ -1,5 +1,7 @@
 import csv
 
+# Comentario
+
 # Leer con reader línea a línea accediendo por índices
 with open('../../data/Cap1/subvenciones.csv', encoding='latin1') as fichero_csv:
     lector = csv.reader(fichero_csv)
