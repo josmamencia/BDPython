@@ -36,7 +36,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/jmencia/workspace/python/cursos/BigDataPython/venv"
+set -gx VIRTUAL_ENV "/home/jmencia/workspace/python/cursos/BDPython/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

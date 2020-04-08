@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/jmencia/workspace/python/cursos/BigDataPython/venv"
+VIRTUAL_ENV="/home/jmencia/workspace/python/cursos/BDPython/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

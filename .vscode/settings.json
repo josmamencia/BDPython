@@ -1,9 +1,9 @@
 {
-  "python.pythonPath": "/home/jmencia/workspace/python/cursos/BigDataPython/venv/bin/python3",
+  "python.pythonPath": "venv/bin/python3",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "python.formatting.provider": "autopep8",
-  "python.formatting.autopep8Path": "/home/jmencia/workspace/python/cursos/BigDataPython/venv/bin/autopep8",
+  "python.formatting.autopep8Path": "/home/jmencia/workspace/python/cursos/BDPython/venv/bin/autopep8",
   "python.formatting.autopep8Args": [
     "--max-line-length",
     "70",
@@ -12,7 +12,7 @@
   "python.linting.lintOnSave": true,
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-  "python.linting.pylintPath": "/home/jmencia/workspace/python/cursos/BigDataPython/venv/bin/pylint",
+  "python.linting.pylintPath": "/home/jmencia/workspace/python/cursos/BDPython/venv/bin/pylint",
   "python.linting.pylintArgs": [
     "--load-plugins",
     "--enable=W0614",
