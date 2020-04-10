@@ -1,5 +1,5 @@
 {
-  "python.pythonPath": "venv/bin/python3",
+  "python.pythonPath": "./venv/bin/python3",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "python.formatting.provider": "autopep8",
@@ -12,7 +12,7 @@
   "python.linting.lintOnSave": true,
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-  "python.linting.pylintPath": "/home/jmencia/workspace/python/cursos/BDPython/venv/bin/pylint",
+  "python.linting.pylintPath": "./venv/bin/pylint",
   "python.linting.pylintArgs": [
     "--load-plugins",
     "--enable=W0614",
@@ -20,5 +20,6 @@
   ],
   "[python]": {
     "editor.tabSize": 4
-  }
+  },
+  "python.venvPath": "./venv"
 }
