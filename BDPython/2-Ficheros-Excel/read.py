@@ -5,7 +5,8 @@ with open_workbook('./data/Cap1/subvenciones.xls', on_demand=True) as libro:
     asociaciones = {}
     for nombreHoja in libro.sheet_names():
         hoja = libro.sheet_by_name(nombreHoja)
-        print('Hoja ' + nombreHoja)
+        print('Procesando Hoja ' + hoja.name)
+        asociaciones = {}
         for i in range(1, hoja.nrows):
             fila = hoja.row(i)
             centro = fila[0].value
@@ -16,4 +17,4 @@ with open_workbook('./data/Cap1/subvenciones.xls', on_demand=True) as libro:
                 asociaciones[centro] = asociaciones[centro] + subvencion
             else:
                 asociaciones[centro] = subvencion
-    print(asociaciones)
+        print(asociaciones)
